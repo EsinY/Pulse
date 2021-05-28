@@ -1,0 +1,25 @@
+@import "../base/variables";
+@import "../blocks/promo";
+@import "../blocks/header.scss";
+@import "../blocks/buttons";
+@import "../base/media";
+@import "../blocks/advantages";
+@import "../blocks/consultation";
+@import "../blocks/form";
+@import "../blocks/carousel";
+@import "../blocks/catalog";
+@import "../blocks/reviews";
+@import "../blocks/footer";
+@import "../blocks/modal";
+
+* {
+    font-family: 'MuseoSansCyrl100', sans-serif;
+}
+
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+.advantages{
+    height: 470px;
+}

@@ -1,0 +1,54 @@
+.reviews {
+    background-color: #ffffff;
+    &__wrapper {
+        margin-top: 70px;
+        display: flex;
+        flex-direction:column;
+        img {
+            float: left;
+            margin-right: 62px;
+        }
+    }
+    &__title {
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -700";
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    &__subtitle {
+        color: #646464;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+    }
+    &__descr {
+        display: flex;
+        margin-top: 19px;
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 16px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+    }
+    &__item {
+        margin-bottom: 100px;
+    }
+    &__line {
+        width: 940px;
+        height: 1px;
+        background-color: #f6f6f6;
+        margin-top: 50px;
+    }
+}
