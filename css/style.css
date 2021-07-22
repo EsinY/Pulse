@@ -277,6 +277,18 @@
     letter-spacing: normal;
     line-height: normal;
     text-decoration: underline; }
+  .advantages__icon_animated {
+    -webkit-animation-name: heartbeat;
+    animation-name: heartbeat;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
+    .advantages__icon_animated:hover {
+      -webkit-animation-play-state: paused;
+      animation-play-state: paused; }
 
 .consultation {
   min-height: 680px;
@@ -705,6 +717,28 @@
   height: 40px; }
   .pageup img {
     width: 100%; }
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4); }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4); }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
 
 * {
   font-family: 'MuseoSansCyrl100', sans-serif; }
